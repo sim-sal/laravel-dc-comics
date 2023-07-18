@@ -1,31 +1,41 @@
-.row {
+header {
+    .row {
 
-    height: 150px;
-    color: rgb(12, 124, 236);
+        height: 150px;
+        color: rgb(12, 124, 236);
 
-    .laravel {
-        h1 {
-            text-shadow: 2px 2px black;
+        .laravel {
+            h1 {
+                text-shadow: 2px 2px black;
+            }
+
+            display: flex;
+            justify-content: end;
+            align-items: center;
         }
 
-        display: flex;
-        justify-content: end;
-        align-items: center;
-    }
-
-    .logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .comics {
-        h1 {
-            text-shadow: 2px 2px black;
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        display: flex;
-        justify-content: start;
-        align-items: center;
+        .comics {
+            h1 {
+                text-shadow: 2px 2px black;
+            }
+
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+    }
+
+    .jumbotron {
+        height: 400px;
+        background-image: url("/resources/img/jumbotron.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: -50px;
     }
 }

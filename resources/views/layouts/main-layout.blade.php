@@ -20,9 +20,9 @@
 <body>
 
     @include("components.header")
-    <div class="container-fluid">
+    <main>
         @yield("content")
-    </div>
+    </main>
     @include("components.footer")
 
 </body>
