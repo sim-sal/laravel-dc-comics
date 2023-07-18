@@ -1,1 +1,13 @@
 @import '~bootstrap/scss/bootstrap';
+
+// general
+@import './partials/general';
+
+// mixins
+@import './partials/mixins';
+
+// header
+@import './partials/header';
+
+// footer
+@import './partials/footer';
