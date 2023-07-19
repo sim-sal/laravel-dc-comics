@@ -3,10 +3,7 @@
         <div class="row justify-content-center">
             <div class="col-5 laravel">
                 <div>
-                    <a class="text-decoration-none" href="{{ route("index")}}">
-                        <h1><strong>LARAVEL</strong></h1>
-                    </a>
-
+                    <h1><strong>LARAVEL</strong></h1>
                 </div>
             </div>
             <div class="col-2 logo">
@@ -18,10 +15,7 @@
             </div>
             <div class="col-5 comics">
                 <div>
-                    <a class="text-decoration-none" href="{{ route("index")}}">
-                        <h1><strong>COMICS</strong></h1>
-                    </a>
-
+                    <h1><strong>COMICS</strong></h1>
                 </div>
             </div>
         </div>
