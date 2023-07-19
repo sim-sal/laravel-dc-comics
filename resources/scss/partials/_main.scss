@@ -6,4 +6,23 @@ main {
         text-shadow: 2px 2px black;
         text-align: center;
     }
+
+    .row {
+        .col-2 {
+            a {
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                    font-weight: bold;
+                    text-shadow: 1px 1px black;
+                }
+            }
+        }
+
+        .col-9 {
+            color: white;
+        }
+    }
 }
