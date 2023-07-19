@@ -2,17 +2,25 @@
     <div class="row justify-content-center">
         <div class="col-5 laravel">
             <div>
-                <h1><strong>LARAVEL</strong></h1>
+                <a class="text-decoration-none" href="{{ route("index")}}">
+                    <h1><strong>LARAVEL</strong></h1>
+                </a>
+
             </div>
         </div>
         <div class="col-2 logo">
             <div>
-                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+                <a href="{{ route("index")}}">
+                    <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+                </a>
             </div>
         </div>
         <div class="col-5 comics">
             <div>
-                <h1><strong>COMICS</strong></h1>
+                <a class="text-decoration-none" href="{{ route("index")}}">
+                    <h1><strong>COMICS</strong></h1>
+                </a>
+
             </div>
         </div>
     </div>

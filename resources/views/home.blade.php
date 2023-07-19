@@ -2,6 +2,13 @@
 
 @section("content")
     <div class="container py-3">
+
+        <div  class="create_comic">
+            <a href="{{route('create')}}">
+                <h3><strong>CREATE YOUR COMIC +</strong></h3>
+            </a>
+        </div>
+
         <h1><strong>COMICS AVAILABLE</strong></h1>
 
         <div class="row py-5">
