@@ -7,7 +7,10 @@
 
         <div class="form-container">
             <div>
-                <form class="text-center py-5" action="">
+                <form method="POST" action="{{route('store')}}" class="text-center py-5" action="">
+
+                    @csrf
+
                     <div class="py-3">
                         {{-- <label for="title"><h3><strong>Title</strong></h3></label><br> --}}
                         <input type="text" placeholder="Insert TITLE" name="title">
@@ -35,7 +38,7 @@
 
                     <div class="py-3">
                         {{-- <label for="sale_date"><h3><strong>Sale date</strong></h3></label><br> --}}
-                        <input type="text" placeholder="Insert SALE DATE" name="sale_date">
+                        <input type="date" name="sale_date">
                     </div>
 
                     <div class="py-3">
