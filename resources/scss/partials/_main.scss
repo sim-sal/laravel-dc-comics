@@ -25,7 +25,8 @@ main {
     .create_comic {
         background-color: white;
         max-width: max-content;
-        padding: 5px;
+        padding-right: 5px;
+        padding-left: 5px;
         border-radius: 10px;
 
         &:hover {
