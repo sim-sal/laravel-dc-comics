@@ -10,6 +10,13 @@ main {
     .row {
         .col-2 {
             a {
+
+                img {
+                    &:hover {
+                        box-shadow: 8px 8px 16px black;
+                    }
+                }
+
                 color: white;
                 text-decoration: none;
 
