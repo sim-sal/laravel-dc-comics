@@ -12,7 +12,7 @@
             <div class="col-2 logo">
                 <div>
                     <a href="{{ route("index")}}">
-                        <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+                        <img class="logo-img" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
                     </a>
                 </div>
             </div>
