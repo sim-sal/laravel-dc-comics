@@ -1,5 +1,9 @@
 @extends("layouts.main-layout")
 
+@section("pageName")
+{{ $comic -> title }}
+@endsection
+
 @section("content")
     <div class="container py-3">
         <h1><strong>{{ $comic -> title }}</strong></h1>

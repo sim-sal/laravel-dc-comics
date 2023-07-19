@@ -1,5 +1,9 @@
 @extends("layouts.main-layout")
 
+@section("pageName")
+Laravel DC Comics
+@endsection
+
 @section("content")
     <div class="container py-3">
 
