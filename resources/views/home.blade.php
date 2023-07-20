@@ -7,12 +7,6 @@ Laravel DC Comics
 @section("content")
     <div class="container py-3">
 
-        <div  class="create_comic">
-            <a href="{{route('create')}}">
-                <h3><strong>CREATE YOUR COMIC +</strong></h3>
-            </a>
-        </div>
-
         <h1><strong>COMICS AVAILABLE</strong></h1>
 
         <div class="row py-5">
@@ -45,6 +39,12 @@ Laravel DC Comics
 
                 </div>
             @endforeach
+
+            <div  class="create_comic">
+                <a href="{{route('create')}}">
+                    <h3><strong><i class="fa-solid fa-circle-plus"></i> CREATE YOUR COMIC BOOK</strong></h3>
+                </a>
+            </div>
         </div>
 
     </div>

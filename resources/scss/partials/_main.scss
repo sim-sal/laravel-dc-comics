@@ -55,23 +55,24 @@ main {
     }
 
     .create_comic {
-        background-color: white;
+        background-color: yellow;
         max-width: max-content;
-        padding-right: 5px;
-        padding-left: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
         border-radius: 10px;
+        border: 3px solid rgb(65, 65, 65);
 
         &:hover {
-            background-color: rgb(14, 70, 126);
-            box-shadow: 2px 2px 2px white;
+            border: 3px solid black;
+            box-shadow: 4px 4px 10px rgb(0, 0, 0);
 
             a {
-                color: white;
+                color: black;
             }
         }
 
         a {
-            color: black;
+            color: rgb(65, 65, 65);
             text-decoration: none;
         }
     }
