@@ -25,7 +25,7 @@ Laravel DC Comics
                             <span>EDIT</span>
                         </a>
 
-                        <form action="{{route('delete', $comic -> id)}}" method="POST">
+                        <form action="{{route('delete', $comic -> id)}}" method="POST" onclick="return window.confirm('Do you really want to delete this Comic?')">
 
                             @csrf
                             @method("DELETE")
