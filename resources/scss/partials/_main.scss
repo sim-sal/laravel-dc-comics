@@ -9,6 +9,37 @@ main {
 
     .row {
         .col-2 {
+
+            .comic-buttons {
+                display: flex;
+                justify-content: space-between;
+
+                .edit,
+                .delete {
+                    font-size: 20px;
+
+                    span {
+                        display: none;
+                    }
+
+                    &:hover {
+                        span {
+                            display: inline-block;
+                        }
+                    }
+                }
+
+                .edit {
+                    color: rgb(7, 60, 112);
+                }
+
+                .delete {
+
+                    color: rgb(158, 0, 0);
+                }
+
+            }
+
             a {
 
                 img {
