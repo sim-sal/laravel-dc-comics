@@ -14,8 +14,7 @@ main {
                 display: flex;
                 justify-content: space-between;
 
-                .edit,
-                .delete {
+                .edit {
                     font-size: 20px;
 
                     span {
@@ -31,11 +30,6 @@ main {
 
                 .edit {
                     color: rgb(7, 60, 112);
-                }
-
-                .delete {
-
-                    color: rgb(158, 0, 0);
                 }
 
             }
