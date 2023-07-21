@@ -29,7 +29,9 @@ Laravel DC Comics
                             @method("DELETE")
 
                             <span class="icon-input-btn">
-                                <input type="submit" class="btn btn-danger btn-sm my-1" value="DELETE">
+                                <button type="submit" class="btn btn-danger btn-sm my-1" value="DELETE">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </button>
                             </span>
 
                         </form>
