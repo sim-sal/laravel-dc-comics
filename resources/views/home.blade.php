@@ -48,7 +48,7 @@ Laravel DC Comics
 
             <div  class="create_comic">
                 <a href="{{route('create')}}">
-                    <h3><strong><i class="fa-solid fa-circle-plus"></i> CREATE YOUR COMIC BOOK</strong></h3>
+                    <h3><strong><i class="fa-solid fa-circle-plus"></i> CREATE YOUR COMIC BOOK <i class="fa-solid fa-book"></i></strong></h3>
                 </a>
             </div>
         </div>
