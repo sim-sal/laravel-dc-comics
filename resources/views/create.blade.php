@@ -7,7 +7,7 @@ CREATE NEW COMIC
 @section("content")
     <div class="container text-center py-5">
 
-        <h1>CREATE NEW COMIC</h1>
+        <h1><strong>CREATE NEW COMIC</strong></h1>
 
         <div class="form-container">
             <div>

@@ -7,7 +7,7 @@ EDIT COMIC
 @section("content")
     <div class="container text-center py-5">
 
-        <h1>EDIT COMIC</h1>
+        <h1><strong>EDIT COMIC</strong></h1>
 
         <div class="form-container">
             <div>

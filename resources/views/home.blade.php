@@ -5,6 +5,10 @@ Laravel DC Comics
 @endsection
 
 @section("content")
+
+    <div class="jumbotron">
+    </div>
+
     <div class="container py-3">
 
         <h1><strong>COMICS AVAILABLE</strong></h1>
