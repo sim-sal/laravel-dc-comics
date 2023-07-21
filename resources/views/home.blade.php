@@ -46,11 +46,11 @@ Laravel DC Comics
                 </div>
             @endforeach
 
-            <div  class="create_comic">
+            <button class="create_comic">
                 <a href="{{route('create')}}">
                     <h3><strong><i class="fa-solid fa-circle-plus"></i> CREATE YOUR COMIC BOOK <i class="fa-solid fa-book"></i></strong></h3>
                 </a>
-            </div>
+            </button>
         </div>
 
     </div>
