@@ -48,7 +48,7 @@ CREATE NEW COMIC
 
                     <div class="py-3">
                         {{-- <label for="type"><h3><strong>Type</strong></h3></label><br> --}}
-                        <input type="text" placeholder="Insert type" name="type">
+                        <input type="text" placeholder="Insert TYPE" name="type">
                     </div>
 
                     <input type="submit" value="CREATE" class="mt-3 my-submit">
